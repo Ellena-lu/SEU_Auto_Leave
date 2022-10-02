@@ -16,8 +16,7 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
       with:
-          token: ${{ github.token }}
-          repository: ${{ github.repository }}
+        python-version: 3.8
     - name: Run
       env:
         TZ: Asia/Shanghai
