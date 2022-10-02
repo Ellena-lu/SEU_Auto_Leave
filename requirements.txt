@@ -1,3 +1,6 @@
-requests
 numpy
 PyExecJS
+pytz
+requests~=2.23.0
+Js2Py~=0.70
+beautifulsoup4~=4.9.3
