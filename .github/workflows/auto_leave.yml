@@ -16,9 +16,9 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-      with:
+#       with:
 #           token: ${{ github.token }}
-          repository: ${{ github.repository }}
+#           repository: ${{ github.repository }}
     - name: Run
       env:
         TZ: Asia/Shanghai
